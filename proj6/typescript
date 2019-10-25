@@ -1,0 +1,1590 @@
+Script started on 2019-04-25 19:49:39-04:00
+[cvantie1@linux2 proj6]make proj5[K6
+gcc -g   -c -o proj6.o proj6.c
+gcc -g   -c -o frac_heap.o frac_heap.c
+gcc proj6.o frac_heap.o -o proj6
+[cvantie1@linux2 proj6]./proj6
+called malloc(160): return 0x11cb260
+
+-2/3 plus 1/4 = -5/12
+
+***** BEGIN HEAP DUMP *****
+
+      0x11cb290
+      0x11cb2a0
+      0x11cb2b0
+      0x11cb2c0
+      0x11cb2d0
+      0x11cb2e0
+      0x11cb2f0
+
+***** END HEAP DUMP *****
+
+***** BEGIN HEAP DUMP *****
+
+      0x11cb270
+      0x11cb290
+      0x11cb2a0
+      0x11cb2b0
+      0x11cb2c0
+      0x11cb2d0
+      0x11cb2e0
+      0x11cb2f0
+
+***** END HEAP DUMP *****
+
+***** BEGIN HEAP DUMP *****
+
+      0x11cb2b0
+      0x11cb2c0
+      0x11cb2d0
+      0x11cb2e0
+      0x11cb2f0
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]make test.[K1.out
+gcc -g   -c -o test1.o test1.c
+gcc test1.o frac_heap.o -o test1.out
+[cvantie1@linux2 proj6]./test1.out
+
+******** TEST 1 *********
+
+***** BEGIN HEAP DUMP *****
+
+
+***** END HEAP DUMP *****
+
+called malloc(160): return 0xca7670
+
+***** BEGIN HEAP DUMP *****
+
+
+***** END HEAP DUMP *****
+
+***** BEGIN HEAP DUMP *****
+
+      0xca7700
+
+***** END HEAP DUMP *****
+
+called malloc(160): return 0xca7720
+
+***** BEGIN HEAP DUMP *****
+
+      0xca7730
+      0xca7740
+      0xca7750
+      0xca7760
+      0xca7770
+      0xca7780
+      0xca7790
+      0xca77a0
+      0xca77b0
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]make test2.out
+gcc -g   -c -o test2.o test2.c
+gcc test2.o frac_heap.o -o test2.out
+[cvantie1@linux2 proj6]./test3[K2.out
+
+******** TEST 2 *********
+called malloc(160): return 0xa2d670
+
+called malloc(160): return 0xa2d720
+
+***** BEGIN HEAP DUMP *****
+
+      0xa2d790
+      0xa2d7a0
+      0xa2d7b0
+
+***** END HEAP DUMP *****
+
+***** BEGIN HEAP DUMP *****
+
+      0xa2d6d0
+      0xa2d6a0
+      0xa2d720
+      0xa2d790
+      0xa2d7a0
+      0xa2d7b0
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]make test3.out
+gcc -g   -c -o test3.o test3.c
+gcc test3.o frac_heap.o -o test3.out
+[cvantie1@linux2 proj6]./test3.out
+
+******** TEST 3 *********
+Error: del_frac() called on NULL pointer.
+called malloc(160): return 0x22c6670
+
+***** BEGIN HEAP DUMP *****
+
+      0x22c6680
+      0x22c6670
+      0x22c6690
+      0x22c66a0
+      0x22c66b0
+      0x22c66c0
+      0x22c66d0
+      0x22c66e0
+      0x22c66f0
+      0x22c6700
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]make test5[K4.out
+gcc -g   -c -o test4.o test4.c
+gcc test4.o frac_heap.o -o test4.out
+[cvantie1@linux2 proj6]./test4.ot[Kut
+
+******** TEST 4 *********
+Error: del_frac() called on NULL pointer.
+called malloc(160): return 0x17d9670
+
+called malloc(160): return 0x17d9720
+
+called malloc(160): return 0x17d97d0
+
+called malloc(160): return 0x17d9880
+
+called malloc(160): return 0x17d9930
+
+called malloc(160): return 0x17d99e0
+
+called malloc(160): return 0x17d9a90
+
+called malloc(160): return 0x17d9b40
+
+called malloc(160): return 0x17d9bf0
+
+called malloc(160): return 0x17d9ca0
+
+called malloc(160): return 0x17d9d50
+
+called malloc(160): return 0x17d9e00
+
+called malloc(160): return 0x17d9eb0
+
+called malloc(160): return 0x17d9f60
+
+called malloc(160): return 0x17da010
+
+called malloc(160): return 0x17da0c0
+
+called malloc(160): return 0x17da170
+
+called malloc(160): return 0x17da220
+
+called malloc(160): return 0x17da2d0
+
+called malloc(160): return 0x17da380
+
+called malloc(160): return 0x17da430
+
+called malloc(160): return 0x17da4e0
+
+called malloc(160): return 0x17da590
+
+called malloc(160): return 0x17da640
+
+called malloc(160): return 0x17da6f0
+
+called malloc(160): return 0x17da7a0
+
+called malloc(160): return 0x17da850
+
+called malloc(160): return 0x17da900
+
+called malloc(160): return 0x17da9b0
+
+called malloc(160): return 0x17daa60
+
+called malloc(160): return 0x17dab10
+
+called malloc(160): return 0x17dabc0
+
+called malloc(160): return 0x17dac70
+
+called malloc(160): return 0x17dad20
+
+called malloc(160): return 0x17dadd0
+
+called malloc(160): return 0x17dae80
+
+called malloc(160): return 0x17daf30
+
+called malloc(160): return 0x17dafe0
+
+called malloc(160): return 0x17db090
+
+called malloc(160): return 0x17db140
+
+called malloc(160): return 0x17db1f0
+
+called malloc(160): return 0x17db2a0
+
+called malloc(160): return 0x17db350
+
+called malloc(160): return 0x17db400
+
+called malloc(160): return 0x17db4b0
+
+called malloc(160): return 0x17db560
+
+called malloc(160): return 0x17db610
+
+called malloc(160): return 0x17db6c0
+
+called malloc(160): return 0x17db770
+
+called malloc(160): return 0x17db820
+
+called malloc(160): return 0x17db8d0
+
+called malloc(160): return 0x17db980
+
+called malloc(160): return 0x17dba30
+
+called malloc(160): return 0x17dbae0
+
+called malloc(160): return 0x17dbb90
+
+called malloc(160): return 0x17dbc40
+
+called malloc(160): return 0x17dbcf0
+
+called malloc(160): return 0x17dbda0
+
+called malloc(160): return 0x17dbe50
+
+called malloc(160): return 0x17dbf00
+
+called malloc(160): return 0x17dbfb0
+
+called malloc(160): return 0x17dc060
+
+called malloc(160): return 0x17dc110
+
+called malloc(160): return 0x17dc1c0
+
+called malloc(160): return 0x17dc270
+
+called malloc(160): return 0x17dc320
+
+called malloc(160): return 0x17dc3d0
+
+called malloc(160): return 0x17dc480
+
+called malloc(160): return 0x17dc530
+
+called malloc(160): return 0x17dc5e0
+
+called malloc(160): return 0x17dc690
+
+called malloc(160): return 0x17dc740
+
+called malloc(160): return 0x17dc7f0
+
+called malloc(160): return 0x17dc8a0
+
+called malloc(160): return 0x17dc950
+
+called malloc(160): return 0x17dca00
+
+called malloc(160): return 0x17dcab0
+
+called malloc(160): return 0x17dcb60
+
+called malloc(160): return 0x17dcc10
+
+called malloc(160): return 0x17dccc0
+
+called malloc(160): return 0x17dcd70
+
+called malloc(160): return 0x17dce20
+
+called malloc(160): return 0x17dced0
+
+called malloc(160): return 0x17dcf80
+
+called malloc(160): return 0x17dd030
+
+called malloc(160): return 0x17dd0e0
+
+called malloc(160): return 0x17dd190
+
+called malloc(160): return 0x17dd240
+
+called malloc(160): return 0x17dd2f0
+
+called malloc(160): return 0x17dd3a0
+
+called malloc(160): return 0x17dd450
+
+called malloc(160): return 0x17dd500
+
+called malloc(160): return 0x17dd5b0
+
+called malloc(160): return 0x17dd660
+
+called malloc(160): return 0x17dd710
+
+called malloc(160): return 0x17dd7c0
+
+called malloc(160): return 0x17dd870
+
+called malloc(160): return 0x17dd920
+
+called malloc(160): return 0x17dd9d0
+
+called malloc(160): return 0x17dda80
+
+***** BEGIN HEAP DUMP *****
+
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]make test56[K.out
+gcc -g   -c -o test5.o test5.c
+gcc test5.o frac_heap.o -o test5.out
+[cvantie1@linux2 proj6]./tre[K[Kest5.out
+
+******** TEST 5 *********
+Error: del_frac() called on NULL pointer.
+called malloc(160): return 0x1517670
+
+***** BEGIN HEAP DUMP *****
+
+      0x1517670
+      0x1517680
+      0x1517690
+      0x15176a0
+      0x15176b0
+      0x15176c0
+      0x15176d0
+      0x15176e0
+      0x15176f0
+      0x1517700
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]make tesr[Kt6.out
+gcc -g   -c -o test6.o test6.c
+gcc test6.o frac_heap.o -o test6.out
+[cvantie1@linux2 proj6]./test6.out
+
+******** TEST 6 *********
+called malloc(160): return 0x1091670
+
+called malloc(160): return 0x1091720
+
+called malloc(160): return 0x10917d0
+
+called malloc(160): return 0x1091880
+
+called malloc(160): return 0x1091930
+
+called malloc(160): return 0x10919e0
+
+called malloc(160): return 0x1091a90
+
+called malloc(160): return 0x1091b40
+
+called malloc(160): return 0x1091bf0
+
+called malloc(160): return 0x1091ca0
+
+called malloc(160): return 0x1091d50
+
+called malloc(160): return 0x1091e00
+
+called malloc(160): return 0x1091eb0
+
+called malloc(160): return 0x1091f60
+
+called malloc(160): return 0x1092010
+
+called malloc(160): return 0x10920c0
+
+called malloc(160): return 0x1092170
+
+called malloc(160): return 0x1092220
+
+called malloc(160): return 0x10922d0
+
+called malloc(160): return 0x1092380
+
+called malloc(160): return 0x1092430
+
+called malloc(160): return 0x10924e0
+
+called malloc(160): return 0x1092590
+
+called malloc(160): return 0x1092640
+
+called malloc(160): return 0x10926f0
+
+called malloc(160): return 0x10927a0
+
+called malloc(160): return 0x1092850
+
+called malloc(160): return 0x1092900
+
+called malloc(160): return 0x10929b0
+
+called malloc(160): return 0x1092a60
+
+called malloc(160): return 0x1092b10
+
+called malloc(160): return 0x1092bc0
+
+called malloc(160): return 0x1092c70
+
+called malloc(160): return 0x1092d20
+
+called malloc(160): return 0x1092dd0
+
+called malloc(160): return 0x1092e80
+
+called malloc(160): return 0x1092f30
+
+called malloc(160): return 0x1092fe0
+
+called malloc(160): return 0x1093090
+
+called malloc(160): return 0x1093140
+
+called malloc(160): return 0x10931f0
+
+called malloc(160): return 0x10932a0
+
+called malloc(160): return 0x1093350
+
+called malloc(160): return 0x1093400
+
+called malloc(160): return 0x10934b0
+
+called malloc(160): return 0x1093560
+
+called malloc(160): return 0x1093610
+
+called malloc(160): return 0x10936c0
+
+called malloc(160): return 0x1093770
+
+called malloc(160): return 0x1093820
+
+called malloc(160): return 0x10938d0
+
+called malloc(160): return 0x1093980
+
+called malloc(160): return 0x1093a30
+
+called malloc(160): return 0x1093ae0
+
+called malloc(160): return 0x1093b90
+
+called malloc(160): return 0x1093c40
+
+called malloc(160): return 0x1093cf0
+
+called malloc(160): return 0x1093da0
+
+called malloc(160): return 0x1093e50
+
+called malloc(160): return 0x1093f00
+
+called malloc(160): return 0x1093fb0
+
+called malloc(160): return 0x1094060
+
+called malloc(160): return 0x1094110
+
+called malloc(160): return 0x10941c0
+
+called malloc(160): return 0x1094270
+
+called malloc(160): return 0x1094320
+
+called malloc(160): return 0x10943d0
+
+called malloc(160): return 0x1094480
+
+called malloc(160): return 0x1094530
+
+called malloc(160): return 0x10945e0
+
+called malloc(160): return 0x1094690
+
+called malloc(160): return 0x1094740
+
+called malloc(160): return 0x10947f0
+
+called malloc(160): return 0x10948a0
+
+called malloc(160): return 0x1094950
+
+called malloc(160): return 0x1094a00
+
+called malloc(160): return 0x1094ab0
+
+called malloc(160): return 0x1094b60
+
+called malloc(160): return 0x1094c10
+
+called malloc(160): return 0x1094cc0
+
+called malloc(160): return 0x1094d70
+
+called malloc(160): return 0x1094e20
+
+called malloc(160): return 0x1094ed0
+
+called malloc(160): return 0x1094f80
+
+called malloc(160): return 0x1095030
+
+called malloc(160): return 0x10950e0
+
+called malloc(160): return 0x1095190
+
+called malloc(160): return 0x1095240
+
+called malloc(160): return 0x10952f0
+
+called malloc(160): return 0x10953a0
+
+called malloc(160): return 0x1095450
+
+called malloc(160): return 0x1095500
+
+called malloc(160): return 0x10955b0
+
+called malloc(160): return 0x1095660
+
+called malloc(160): return 0x1095710
+
+called malloc(160): return 0x10957c0
+
+called malloc(160): return 0x1095870
+
+called malloc(160): return 0x1095920
+
+called malloc(160): return 0x10959d0
+
+called malloc(160): return 0x1095a80
+
+***** BEGIN HEAP DUMP *****
+
+      0x1095b10
+      0x1095b00
+      0x1095af0
+      0x1095ae0
+      0x1095ad0
+      0x1095ac0
+      0x1095ab0
+      0x1095aa0
+      0x1095a90
+      0x1095a80
+      0x1095a60
+      0x1095a50
+      0x1095a40
+      0x1095a30
+      0x1095a20
+      0x1095a10
+      0x1095a00
+      0x10959f0
+      0x10959e0
+      0x10959d0
+      0x10959b0
+      0x10959a0
+      0x1095990
+      0x1095980
+      0x1095970
+      0x1095960
+      0x1095950
+      0x1095940
+      0x1095930
+      0x1095920
+      0x1095900
+      0x10958f0
+      0x10958e0
+      0x10958d0
+      0x10958c0
+      0x10958b0
+      0x10958a0
+      0x1095890
+      0x1095880
+      0x1095870
+      0x1095850
+      0x1095840
+      0x1095830
+      0x1095820
+      0x1095810
+      0x1095800
+      0x10957f0
+      0x10957e0
+      0x10957d0
+      0x10957c0
+      0x10957a0
+      0x1095790
+      0x1095780
+      0x1095770
+      0x1095760
+      0x1095750
+      0x1095740
+      0x1095730
+      0x1095720
+      0x1095710
+      0x10956f0
+      0x10956e0
+      0x10956d0
+      0x10956c0
+      0x10956b0
+      0x10956a0
+      0x1095690
+      0x1095680
+      0x1095670
+      0x1095660
+      0x1095640
+      0x1095630
+      0x1095620
+      0x1095610
+      0x1095600
+      0x10955f0
+      0x10955e0
+      0x10955d0
+      0x10955c0
+      0x10955b0
+      0x1095590
+      0x1095580
+      0x1095570
+      0x1095560
+      0x1095550
+      0x1095540
+      0x1095530
+      0x1095520
+      0x1095510
+      0x1095500
+      0x10954e0
+      0x10954d0
+      0x10954c0
+      0x10954b0
+      0x10954a0
+      0x1095490
+      0x1095480
+      0x1095470
+      0x1095460
+      0x1095450
+      0x1095430
+      0x1095420
+      0x1095410
+      0x1095400
+      0x10953f0
+      0x10953e0
+      0x10953d0
+      0x10953c0
+      0x10953b0
+      0x10953a0
+      0x1095380
+      0x1095370
+      0x1095360
+      0x1095350
+      0x1095340
+      0x1095330
+      0x1095320
+      0x1095310
+      0x1095300
+      0x10952f0
+      0x10952d0
+      0x10952c0
+      0x10952b0
+      0x10952a0
+      0x1095290
+      0x1095280
+      0x1095270
+      0x1095260
+      0x1095250
+      0x1095240
+      0x1095220
+      0x1095210
+      0x1095200
+      0x10951f0
+      0x10951e0
+      0x10951d0
+      0x10951c0
+      0x10951b0
+      0x10951a0
+      0x1095190
+      0x1095170
+      0x1095160
+      0x1095150
+      0x1095140
+      0x1095130
+      0x1095120
+      0x1095110
+      0x1095100
+      0x10950f0
+      0x10950e0
+      0x10950c0
+      0x10950b0
+      0x10950a0
+      0x1095090
+      0x1095080
+      0x1095070
+      0x1095060
+      0x1095050
+      0x1095040
+      0x1095030
+      0x1095010
+      0x1095000
+      0x1094ff0
+      0x1094fe0
+      0x1094fd0
+      0x1094fc0
+      0x1094fb0
+      0x1094fa0
+      0x1094f90
+      0x1094f80
+      0x1094f60
+      0x1094f50
+      0x1094f40
+      0x1094f30
+      0x1094f20
+      0x1094f10
+      0x1094f00
+      0x1094ef0
+      0x1094ee0
+      0x1094ed0
+      0x1094eb0
+      0x1094ea0
+      0x1094e90
+      0x1094e80
+      0x1094e70
+      0x1094e60
+      0x1094e50
+      0x1094e40
+      0x1094e30
+      0x1094e20
+      0x1094e00
+      0x1094df0
+      0x1094de0
+      0x1094dd0
+      0x1094dc0
+      0x1094db0
+      0x1094da0
+      0x1094d90
+      0x1094d80
+      0x1094d70
+      0x1094d50
+      0x1094d40
+      0x1094d30
+      0x1094d20
+      0x1094d10
+      0x1094d00
+      0x1094cf0
+      0x1094ce0
+      0x1094cd0
+      0x1094cc0
+      0x1094ca0
+      0x1094c90
+      0x1094c80
+      0x1094c70
+      0x1094c60
+      0x1094c50
+      0x1094c40
+      0x1094c30
+      0x1094c20
+      0x1094c10
+      0x1094bf0
+      0x1094be0
+      0x1094bd0
+      0x1094bc0
+      0x1094bb0
+      0x1094ba0
+      0x1094b90
+      0x1094b80
+      0x1094b70
+      0x1094b60
+      0x1094b40
+      0x1094b30
+      0x1094b20
+      0x1094b10
+      0x1094b00
+      0x1094af0
+      0x1094ae0
+      0x1094ad0
+      0x1094ac0
+      0x1094ab0
+      0x1094a90
+      0x1094a80
+      0x1094a70
+      0x1094a60
+      0x1094a50
+      0x1094a40
+      0x1094a30
+      0x1094a20
+      0x1094a10
+      0x1094a00
+      0x10949e0
+      0x10949d0
+      0x10949c0
+      0x10949b0
+      0x10949a0
+      0x1094990
+      0x1094980
+      0x1094970
+      0x1094960
+      0x1094950
+      0x1094930
+      0x1094920
+      0x1094910
+      0x1094900
+      0x10948f0
+      0x10948e0
+      0x10948d0
+      0x10948c0
+      0x10948b0
+      0x10948a0
+      0x1094880
+      0x1094870
+      0x1094860
+      0x1094850
+      0x1094840
+      0x1094830
+      0x1094820
+      0x1094810
+      0x1094800
+      0x10947f0
+      0x10947d0
+      0x10947c0
+      0x10947b0
+      0x10947a0
+      0x1094790
+      0x1094780
+      0x1094770
+      0x1094760
+      0x1094750
+      0x1094740
+      0x1094720
+      0x1094710
+      0x1094700
+      0x10946f0
+      0x10946e0
+      0x10946d0
+      0x10946c0
+      0x10946b0
+      0x10946a0
+      0x1094690
+      0x1094670
+      0x1094660
+      0x1094650
+      0x1094640
+      0x1094630
+      0x1094620
+      0x1094610
+      0x1094600
+      0x10945f0
+      0x10945e0
+      0x10945c0
+      0x10945b0
+      0x10945a0
+      0x1094590
+      0x1094580
+      0x1094570
+      0x1094560
+      0x1094550
+      0x1094540
+      0x1094530
+      0x1094510
+      0x1094500
+      0x10944f0
+      0x10944e0
+      0x10944d0
+      0x10944c0
+      0x10944b0
+      0x10944a0
+      0x1094490
+      0x1094480
+      0x1094460
+      0x1094450
+      0x1094440
+      0x1094430
+      0x1094420
+      0x1094410
+      0x1094400
+      0x10943f0
+      0x10943e0
+      0x10943d0
+      0x10943b0
+      0x10943a0
+      0x1094390
+      0x1094380
+      0x1094370
+      0x1094360
+      0x1094350
+      0x1094340
+      0x1094330
+      0x1094320
+      0x1094300
+      0x10942f0
+      0x10942e0
+      0x10942d0
+      0x10942c0
+      0x10942b0
+      0x10942a0
+      0x1094290
+      0x1094280
+      0x1094270
+      0x1094250
+      0x1094240
+      0x1094230
+      0x1094220
+      0x1094210
+      0x1094200
+      0x10941f0
+      0x10941e0
+      0x10941d0
+      0x10941c0
+      0x10941a0
+      0x1094190
+      0x1094180
+      0x1094170
+      0x1094160
+      0x1094150
+      0x1094140
+      0x1094130
+      0x1094120
+      0x1094110
+      0x10940f0
+      0x10940e0
+      0x10940d0
+      0x10940c0
+      0x10940b0
+      0x10940a0
+      0x1094090
+      0x1094080
+      0x1094070
+      0x1094060
+      0x1094040
+      0x1094030
+      0x1094020
+      0x1094010
+      0x1094000
+      0x1093ff0
+      0x1093fe0
+      0x1093fd0
+      0x1093fc0
+      0x1093fb0
+      0x1093f90
+      0x1093f80
+      0x1093f70
+      0x1093f60
+      0x1093f50
+      0x1093f40
+      0x1093f30
+      0x1093f20
+      0x1093f10
+      0x1093f00
+      0x1093ee0
+      0x1093ed0
+      0x1093ec0
+      0x1093eb0
+      0x1093ea0
+      0x1093e90
+      0x1093e80
+      0x1093e70
+      0x1093e60
+      0x1093e50
+      0x1093e30
+      0x1093e20
+      0x1093e10
+      0x1093e00
+      0x1093df0
+      0x1093de0
+      0x1093dd0
+      0x1093dc0
+      0x1093db0
+      0x1093da0
+      0x1093d80
+      0x1093d70
+      0x1093d60
+      0x1093d50
+      0x1093d40
+      0x1093d30
+      0x1093d20
+      0x1093d10
+      0x1093d00
+      0x1093cf0
+      0x1093cd0
+      0x1093cc0
+      0x1093cb0
+      0x1093ca0
+      0x1093c90
+      0x1093c80
+      0x1093c70
+      0x1093c60
+      0x1093c50
+      0x1093c40
+      0x1093c20
+      0x1093c10
+      0x1093c00
+      0x1093bf0
+      0x1093be0
+      0x1093bd0
+      0x1093bc0
+      0x1093bb0
+      0x1093ba0
+      0x1093b90
+      0x1093b70
+      0x1093b60
+      0x1093b50
+      0x1093b40
+      0x1093b30
+      0x1093b20
+      0x1093b10
+      0x1093b00
+      0x1093af0
+      0x1093ae0
+      0x1093ac0
+      0x1093ab0
+      0x1093aa0
+      0x1093a90
+      0x1093a80
+      0x1093a70
+      0x1093a60
+      0x1093a50
+      0x1093a40
+      0x1093a30
+      0x1093a10
+      0x1093a00
+      0x10939f0
+      0x10939e0
+      0x10939d0
+      0x10939c0
+      0x10939b0
+      0x10939a0
+      0x1093990
+      0x1093980
+      0x1093960
+      0x1093950
+      0x1093940
+      0x1093930
+      0x1093920
+      0x1093910
+      0x1093900
+      0x10938f0
+      0x10938e0
+      0x10938d0
+      0x10938b0
+      0x10938a0
+      0x1093890
+      0x1093880
+      0x1093870
+      0x1093860
+      0x1093850
+      0x1093840
+      0x1093830
+      0x1093820
+      0x1093800
+      0x10937f0
+      0x10937e0
+      0x10937d0
+      0x10937c0
+      0x10937b0
+      0x10937a0
+      0x1093790
+      0x1093780
+      0x1093770
+      0x1093750
+      0x1093740
+      0x1093730
+      0x1093720
+      0x1093710
+      0x1093700
+      0x10936f0
+      0x10936e0
+      0x10936d0
+      0x10936c0
+      0x10936a0
+      0x1093690
+      0x1093680
+      0x1093670
+      0x1093660
+      0x1093650
+      0x1093640
+      0x1093630
+      0x1093620
+      0x1093610
+      0x10935f0
+      0x10935e0
+      0x10935d0
+      0x10935c0
+      0x10935b0
+      0x10935a0
+      0x1093590
+      0x1093580
+      0x1093570
+      0x1093560
+      0x1093540
+      0x1093530
+      0x1093520
+      0x1093510
+      0x1093500
+      0x10934f0
+      0x10934e0
+      0x10934d0
+      0x10934c0
+      0x10934b0
+      0x1093490
+      0x1093480
+      0x1093470
+      0x1093460
+      0x1093450
+      0x1093440
+      0x1093430
+      0x1093420
+      0x1093410
+      0x1093400
+      0x10933e0
+      0x10933d0
+      0x10933c0
+      0x10933b0
+      0x10933a0
+      0x1093390
+      0x1093380
+      0x1093370
+      0x1093360
+      0x1093350
+      0x1093330
+      0x1093320
+      0x1093310
+      0x1093300
+      0x10932f0
+      0x10932e0
+      0x10932d0
+      0x10932c0
+      0x10932b0
+      0x10932a0
+      0x1093280
+      0x1093270
+      0x1093260
+      0x1093250
+      0x1093240
+      0x1093230
+      0x1093220
+      0x1093210
+      0x1093200
+      0x10931f0
+      0x10931d0
+      0x10931c0
+      0x10931b0
+      0x10931a0
+      0x1093190
+      0x1093180
+      0x1093170
+      0x1093160
+      0x1093150
+      0x1093140
+      0x1093120
+      0x1093110
+      0x1093100
+      0x10930f0
+      0x10930e0
+      0x10930d0
+      0x10930c0
+      0x10930b0
+      0x10930a0
+      0x1093090
+      0x1093070
+      0x1093060
+      0x1093050
+      0x1093040
+      0x1093030
+      0x1093020
+      0x1093010
+      0x1093000
+      0x1092ff0
+      0x1092fe0
+      0x1092fc0
+      0x1092fb0
+      0x1092fa0
+      0x1092f90
+      0x1092f80
+      0x1092f70
+      0x1092f60
+      0x1092f50
+      0x1092f40
+      0x1092f30
+      0x1092f10
+      0x1092f00
+      0x1092ef0
+      0x1092ee0
+      0x1092ed0
+      0x1092ec0
+      0x1092eb0
+      0x1092ea0
+      0x1092e90
+      0x1092e80
+      0x1092e60
+      0x1092e50
+      0x1092e40
+      0x1092e30
+      0x1092e20
+      0x1092e10
+      0x1092e00
+      0x1092df0
+      0x1092de0
+      0x1092dd0
+      0x1092db0
+      0x1092da0
+      0x1092d90
+      0x1092d80
+      0x1092d70
+      0x1092d60
+      0x1092d50
+      0x1092d40
+      0x1092d30
+      0x1092d20
+      0x1092d00
+      0x1092cf0
+      0x1092ce0
+      0x1092cd0
+      0x1092cc0
+      0x1092cb0
+      0x1092ca0
+      0x1092c90
+      0x1092c80
+      0x1092c70
+      0x1092c50
+      0x1092c40
+      0x1092c30
+      0x1092c20
+      0x1092c10
+      0x1092c00
+      0x1092bf0
+      0x1092be0
+      0x1092bd0
+      0x1092bc0
+      0x1092ba0
+      0x1092b90
+      0x1092b80
+      0x1092b70
+      0x1092b60
+      0x1092b50
+      0x1092b40
+      0x1092b30
+      0x1092b20
+      0x1092b10
+      0x1092af0
+      0x1092ae0
+      0x1092ad0
+      0x1092ac0
+      0x1092ab0
+      0x1092aa0
+      0x1092a90
+      0x1092a80
+      0x1092a70
+      0x1092a60
+      0x1092a40
+      0x1092a30
+      0x1092a20
+      0x1092a10
+      0x1092a00
+      0x10929f0
+      0x10929e0
+      0x10929d0
+      0x10929c0
+      0x10929b0
+      0x1092990
+      0x1092980
+      0x1092970
+      0x1092960
+      0x1092950
+      0x1092940
+      0x1092930
+      0x1092920
+      0x1092910
+      0x1092900
+      0x10928e0
+      0x10928d0
+      0x10928c0
+      0x10928b0
+      0x10928a0
+      0x1092890
+      0x1092880
+      0x1092870
+      0x1092860
+      0x1092850
+      0x1092830
+      0x1092820
+      0x1092810
+      0x1092800
+      0x10927f0
+      0x10927e0
+      0x10927d0
+      0x10927c0
+      0x10927b0
+      0x10927a0
+      0x1092780
+      0x1092770
+      0x1092760
+      0x1092750
+      0x1092740
+      0x1092730
+      0x1092720
+      0x1092710
+      0x1092700
+      0x10926f0
+      0x10926d0
+      0x10926c0
+      0x10926b0
+      0x10926a0
+      0x1092690
+      0x1092680
+      0x1092670
+      0x1092660
+      0x1092650
+      0x1092640
+      0x1092620
+      0x1092610
+      0x1092600
+      0x10925f0
+      0x10925e0
+      0x10925d0
+      0x10925c0
+      0x10925b0
+      0x10925a0
+      0x1092590
+      0x1092570
+      0x1092560
+      0x1092550
+      0x1092540
+      0x1092530
+      0x1092520
+      0x1092510
+      0x1092500
+      0x10924f0
+      0x10924e0
+      0x10924c0
+      0x10924b0
+      0x10924a0
+      0x1092490
+      0x1092480
+      0x1092470
+      0x1092460
+      0x1092450
+      0x1092440
+      0x1092430
+      0x1092410
+      0x1092400
+      0x10923f0
+      0x10923e0
+      0x10923d0
+      0x10923c0
+      0x10923b0
+      0x10923a0
+      0x1092390
+      0x1092380
+      0x1092360
+      0x1092350
+      0x1092340
+      0x1092330
+      0x1092320
+      0x1092310
+      0x1092300
+      0x10922f0
+      0x10922e0
+      0x10922d0
+      0x10922b0
+      0x10922a0
+      0x1092290
+      0x1092280
+      0x1092270
+      0x1092260
+      0x1092250
+      0x1092240
+      0x1092230
+      0x1092220
+      0x1092200
+      0x10921f0
+      0x10921e0
+      0x10921d0
+      0x10921c0
+      0x10921b0
+      0x10921a0
+      0x1092190
+      0x1092180
+      0x1092170
+      0x1092150
+      0x1092140
+      0x1092130
+      0x1092120
+      0x1092110
+      0x1092100
+      0x10920f0
+      0x10920e0
+      0x10920d0
+      0x10920c0
+      0x10920a0
+      0x1092090
+      0x1092080
+      0x1092070
+      0x1092060
+      0x1092050
+      0x1092040
+      0x1092030
+      0x1092020
+      0x1092010
+      0x1091ff0
+      0x1091fe0
+      0x1091fd0
+      0x1091fc0
+      0x1091fb0
+      0x1091fa0
+      0x1091f90
+      0x1091f80
+      0x1091f70
+      0x1091f60
+      0x1091f40
+      0x1091f30
+      0x1091f20
+      0x1091f10
+      0x1091f00
+      0x1091ef0
+      0x1091ee0
+      0x1091ed0
+      0x1091ec0
+      0x1091eb0
+      0x1091e90
+      0x1091e80
+      0x1091e70
+      0x1091e60
+      0x1091e50
+      0x1091e40
+      0x1091e30
+      0x1091e20
+      0x1091e10
+      0x1091e00
+      0x1091de0
+      0x1091dd0
+      0x1091dc0
+      0x1091db0
+      0x1091da0
+      0x1091d90
+      0x1091d80
+      0x1091d70
+      0x1091d60
+      0x1091d50
+      0x1091d30
+      0x1091d20
+      0x1091d10
+      0x1091d00
+      0x1091cf0
+      0x1091ce0
+      0x1091cd0
+      0x1091cc0
+      0x1091cb0
+      0x1091ca0
+      0x1091c80
+      0x1091c70
+      0x1091c60
+      0x1091c50
+      0x1091c40
+      0x1091c30
+      0x1091c20
+      0x1091c10
+      0x1091c00
+      0x1091bf0
+      0x1091bd0
+      0x1091bc0
+      0x1091bb0
+      0x1091ba0
+      0x1091b90
+      0x1091b80
+      0x1091b70
+      0x1091b60
+      0x1091b50
+      0x1091b40
+      0x1091b20
+      0x1091b10
+      0x1091b00
+      0x1091af0
+      0x1091ae0
+      0x1091ad0
+      0x1091ac0
+      0x1091ab0
+      0x1091aa0
+      0x1091a90
+      0x1091a70
+      0x1091a60
+      0x1091a50
+      0x1091a40
+      0x1091a30
+      0x1091a20
+      0x1091a10
+      0x1091a00
+      0x10919f0
+      0x10919e0
+      0x10919c0
+      0x10919b0
+      0x10919a0
+      0x1091990
+      0x1091980
+      0x1091970
+      0x1091960
+      0x1091950
+      0x1091940
+      0x1091930
+      0x1091910
+      0x1091900
+      0x10918f0
+      0x10918e0
+      0x10918d0
+      0x10918c0
+      0x10918b0
+      0x10918a0
+      0x1091890
+      0x1091880
+      0x1091860
+      0x1091850
+      0x1091840
+      0x1091830
+      0x1091820
+      0x1091810
+      0x1091800
+      0x10917f0
+      0x10917e0
+      0x10917d0
+      0x10917b0
+      0x10917a0
+      0x1091790
+      0x1091780
+      0x1091770
+      0x1091760
+      0x1091750
+      0x1091740
+      0x1091730
+      0x1091720
+      0x1091700
+      0x10916f0
+      0x10916e0
+      0x10916d0
+      0x10916c0
+      0x10916b0
+      0x10916a0
+      0x1091690
+      0x1091680
+      0x1091670
+
+***** END HEAP DUMP *****
+
+[cvantie1@linux2 proj6]exit
+exit
+
+Script done on 2019-04-25 19:50:41-04:00
